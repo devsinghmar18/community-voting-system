@@ -1,5 +1,7 @@
 # Community Digital Voting System
 
+![Proposal List View](output_images/1.ai.png)
+
 A full-stack application for creating and voting on community proposals, featuring a FastAPI backend and React frontend.
 
 ## Features
@@ -14,11 +16,35 @@ A full-stack application for creating and voting on community proposals, featuri
 - OpenAPI 3.0 compliance
 
 ### Frontend (React)
-- View active/closed/expired proposals
-- Create new proposals
-- Vote and revote functionality
-- Real-time proposal status updates
+- View active/closed/expired proposals  
+  ![Proposal List View](output_images/1.ai.png)
+- Create new proposals  
+  ![Create Proposal Interface](output_images/5.ai.png)
+- Vote and revote functionality  
+  ![Voting Interface](output_images/2.ai.png)
+- Real-time proposal status updates  
+  ![Vote Results - Yes](output_images/3.ai.png)  
+  ![Vote Results - No](output_images/4.ai.png)
 - Proposal detail view with votes
+
+## UI Demonstration
+
+### Proposal Management
+1. **Create new proposals**  
+   ![Proposal Creation](output_images/5.ai.png)
+
+2. **View active proposals**  
+   ![Proposal List](output_images/1.ai.png)
+
+### Voting Process
+1. **Cast your vote**  
+   ![Voting Options](output_images/2.ai.png)
+
+2. **See results after voting**  
+   - When voting "Yes":  
+     ![Yes Vote](output_images/3.ai.png)
+   - When voting "No":  
+     ![No Vote](output_images/4.ai.png)
 
 ## Technologies
 
