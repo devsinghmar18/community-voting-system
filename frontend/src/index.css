@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 8px 16px;
+  background: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.proposal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.proposal-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.status-green { color: green; }
+.status-orange { color: orange; }
+.status-red { color: red; }
+
+.vote-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-vote {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-vote.yes { background: #4CAF50; color: white; }
+.btn-vote.no { background: #f44336; color: white; }
+.btn-vote.abstain { background: #ff9800; color: white; }
+
+.vote-bar {
+  margin-bottom: 10px;
+}
+
+.bar-container {
+  width: 100%;
+  background: #f0f0f0;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.bar {
+  height: 100%;
+  background: #4CAF50;
+  border-radius: 4px;
+}
+
+.create-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.btn-submit {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.proposal-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    
+    justify-content: space-between;
+}
+
+.btn-delete{
+    padding: 8px 16px;
+    color: white;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+}
+
+.proposal-title{
+    text-decoration: none;
+}
+
+.proposal-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
